@@ -1,0 +1,20 @@
+# Build artifacts
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+
+# KiCad
+*-cache.lib
+*.bak
+*.bck
+fp-info-cache
+*.kicad_pcb-bak
+*.sch-bak
+_sym-lib-table.bak
+
+# OS / editors
+.DS_Store
+.vscode/
+*.swp
