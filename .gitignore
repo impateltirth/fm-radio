@@ -5,6 +5,23 @@
 *.bin
 *.map
 
+# Keil uVision (C51)
+Objects/
+Listings/
+*.uvproj.user
+*.uvoptx
+*.uvgui.*
+*.dep
+*.lnp
+*.iex
+
+# SDCC
+*.asm
+*.lst
+*.rel
+*.sym
+*.rst
+
 # KiCad
 *-cache.lib
 *.bak
