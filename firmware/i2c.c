@@ -42,7 +42,7 @@ void i2c_stop(void)
 
 uint8_t i2c_write_byte(uint8_t b)
 {
-    uint8_t i;
+    uint8_t i, ack;
     for (i = 0; i < 8; i++) {
         I2C_SDA = (b & 0x80) ? 1 : 0;
         b <<= 1;
@@ -55,7 +55,7 @@ uint8_t i2c_write_byte(uint8_t b)
     i2c_delay();
     I2C_SCL = 1;
     i2c_delay();
-    uint8_t ack = (I2C_SDA == 0);
+    ack = (I2C_SDA == 0);
     I2C_SCL = 0;
     return ack;
 }
