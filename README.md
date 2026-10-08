@@ -43,6 +43,10 @@ firmware/
 └── main.c        # App: splash, status display, input loop
 ```
 
+The subsystem diagram and electrical checklist are in
+[`hardware/README.md`](hardware/README.md). They document design intent; the
+actual PCB still requires verification against the source schematic.
+
 ## Building & flashing
 
 **Keil µVision 5 (recommended for STC89C52):**
