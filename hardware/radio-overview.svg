@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="440" viewBox="0 0 1100 440" role="img" aria-labelledby="t d">
+  <title id="t">FM Radio system overview</title><desc id="d">Antenna and RDA5807 controlled by an 8051 with LCD, buttons, audio amplifier, speaker, and VU meter.</desc>
+  <rect width="1100" height="440" rx="24" fill="#171225"/><text x="48" y="65" fill="white" font-family="Segoe UI,Arial" font-size="32" font-weight="700">FM RADIO · EMBEDDED RECEIVER</text>
+  <g fill="#261d3b" stroke="#c084fc" stroke-width="2"><rect x="50" y="155" width="135" height="105" rx="14"/><rect x="235" y="155" width="165" height="105" rx="14"/><rect x="450" y="125" width="190" height="165" rx="14"/><rect x="690" y="155" width="155" height="105" rx="14"/><rect x="895" y="155" width="155" height="105" rx="14"/></g>
+  <g stroke="#c084fc" stroke-width="6"><line x1="185" y1="207" x2="235" y2="207"/><line x1="400" y1="207" x2="450" y2="207"/><line x1="640" y1="207" x2="690" y2="207"/><line x1="845" y1="207" x2="895" y2="207"/></g>
+  <g fill="white" font-family="Segoe UI,Arial" font-size="19" text-anchor="middle"><text x="117" y="200">FM</text><text x="117" y="228">antenna</text><text x="317" y="200">RDA5807</text><text x="317" y="228">tuner</text><text x="545" y="180">STC89C52</text><text x="545" y="210">I²C + buttons</text><text x="545" y="240">LCD UI</text><text x="767" y="200">LM386</text><text x="767" y="228">audio amp</text><text x="972" y="190">Speaker</text><text x="972" y="218">+</text><text x="972" y="246">VU meter</text></g>
+  <text x="48" y="390" fill="#ddd6fe" font-family="Segoe UI,Arial" font-size="18">Firmware implemented · PCB connectivity and RF/audio layout still require source schematic verification</text>
+</svg>
