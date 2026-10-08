@@ -1,5 +1,7 @@
 # FM Radio
 
+![FM Radio embedded receiver](hardware/radio-overview.svg)
+
 A fully functional FM radio receiver built from the ground up: a PCB-based embedded system that receives, processes, and converts RF signals into real-time audio with interactive tuning and display.
 
 **Hardware:** STC89C52RC (8051) · RDA5807 FM receiver · LCD1602 · LM386 audio amp · KA2284 LED VU meter
